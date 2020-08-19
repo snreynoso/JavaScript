@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 40rem;
+  border: black solid 2px;
+  padding: 10px;
+}
+
+body .header {
+  border: black solid 2px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+body .header .header_logo {
+  border: black solid 2px;
+  width: 120px;
+  height: 25px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body .header .header_menu {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body .sec01, body .sec02 {
+  margin: 20px 0;
+  border: black solid 2px;
+  padding: 10px;
+}
+
+body .sec01 {
+  display: flex;
+  flex-direction: row;
+}
+
+body .sec01 .section01_text {
+  width: 300px;
+  display: block;
+  padding: 25px;
+}
+
+body .sec01 .section01_text h1 {
+  padding: 5px 0;
+}
+
+body .sec01 .section01_img {
+  border: black solid 2px;
+  border-radius: 15px;
+  margin: 15px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body .sec02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body .sec02 .section02_group {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+body .sec02 .section02_group .section02_imgName h1 {
+  width: 200px;
+  height: 200px;
+  border: black solid 2px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body .sec02 .section02_group .section02_imgName h2 {
+  padding: 15px 0;
+  text-align: center;
+}
+
+body .sec02 .section02_verMas {
+  border: black solid 2px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
